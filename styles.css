@@ -1,0 +1,87 @@
+body{
+    font-family: sans-serif;
+    width: 100%;
+}
+ul{
+    margin-left: auto;
+    font-weight: lighter;
+}
+.Main_header{
+    background: url(background.jpg);
+    background-size: cover;
+
+}
+.background-overlay {
+    background: rgba(88, 38, 104, 0.7);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.image{
+    margin: 0% 10%;
+}
+#button{
+    width: 100%;
+}
+#TypeCard1{
+    border: 2px solid #6f42c1 ;
+    text-align: center;
+}
+#TypeCard2{
+    text-align: center;
+    background-color: #6f42c1;
+    border: 2px solid black ;
+    color: white;
+}
+#About{
+    background-color: rgb(252, 252, 252);
+}
+#About p{
+    margin: 0% 8%;
+
+}
+.accordion-item button{
+    text-decoration: none;
+    color: #6f42c1;
+}
+.accordion-item h2{
+    background-color: rgb(252, 252, 252);
+}
+#Work_team{
+    background-color: #6f42c1;
+}
+#Contact{
+    list-style: none;
+    padding: 0%;
+    display: flex;
+}
+#Contact .Data-input{
+    width: 90%;
+    padding-right: 5%;
+}
+#finPage{
+    background-color: #6f42c1;
+}
+@media (max-width:767px) {
+    .image{
+        margin: 5%;
+    }
+    #Contact{
+        list-style: none;
+        padding: 0%;
+        display: block;
+    }
+    #Contact .Data-input{
+        width: 100%;
+        padding-right: 5%;
+    }
+    #Worker{
+        width: 100px;
+    }
+    #finallogo{
+        width: 40%;
+        margin: auto;
+    }
+}
