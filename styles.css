@@ -6,6 +6,12 @@ ul{
     margin-left: auto;
     font-weight: lighter;
 }
+.navbar-nav button{
+    color: #fff;
+}
+.navbar-nav button:hover{
+    color: rgb(255, 209, 209);
+}
 .Main_header{
     background: url(background.jpg);
     background-size: cover;
